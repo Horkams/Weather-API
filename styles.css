@@ -1,0 +1,95 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    background-color: white;
+    grid-gap: 10px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+/* title/helpinfo/slagbar */
+#title {
+    background-color: black;
+    grid-column: 1/10;
+    grid-row: 1;
+    }
+
+#helpinfo{
+    background-color: black;
+    grid-column: 1/10;
+    grid-row: 3;
+    grid-gap: 10px;
+    font-size: 70%;
+    text-align: middle;
+    }
+
+#Flagbar {
+    grid-column: 1/10;
+    grid-row: 2;
+    background-color: black;
+    }
+
+/* left table values */
+#one {
+    background-color: black;
+    grid-column: 1/6;
+    grid-row: 4;
+    }
+
+#two {
+    background-color: black;
+    grid-column: 1/6;
+    grid-row: 5;
+    }
+
+#three {
+    background-color: black;
+    grid-column: 1/6;
+    grid-row: 6;
+    }
+
+#four {
+    background-color: black;
+    grid-column: 1/6;
+    grid-row: 7;
+    }
+
+#five {
+    background-color: black;
+    grid-column: 1/6;
+    grid-row: 8;
+    }
+
+/* right table values */
+#six {
+    background-color: black;
+    grid-column: 6/10;
+    grid-row: 4;
+    }
+
+#seven {
+    background-color: black;
+    grid-column: 6/10;
+    grid-row: 5;
+    }
+
+#eight {
+    background-color: black;
+    grid-column: 6/10;
+    grid-row: 6;
+    }
+
+#nine {
+    background-color: black;
+    grid-column: 6/10;
+    grid-row: 7;
+    }
+#ten {
+    background-color: black;
+    grid-column: 6/10;
+    grid-row: 8;
+    }
+/*  End of CSS   */

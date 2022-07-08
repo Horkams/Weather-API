@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <head>
-<!-- Calling JQuery --> <!-- Remake of Weather API From college work -->
+    <!--
+        Remake of Weather API From college work
+    -->
+<!-- Calling JQuery -->
     <script spc="http:code.jquery.com/jquery.j.j.i.sjn.js"></script>
     <title>Weather API</title>
 <!-- Calling in CSS -->
-    <link href = "stylesheet" rel ="style.css"> 
+    <link rel="stylesheet" href="styles.css">
 <!-- Calling in Font -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 </head>
-<body>
-  
-    
 
-<!--Main Table -->
+<body>
+<!-- main table -->
 <div class="container">
-<!-- text cells of the table -->
-    <div id="one"> Capital Weather In Your Region</div>
-<!-- call weather method buttons-->
-    <div id="two">Place</div>
-    <div id="three">Description of Weather</div>
-    <div id="four">Temperature</div>
-    <div id="five">Humidity</div>
-    <div id="six">Wind Speed</div>
-<!--json called divs-->
-    <div id="seven">Capital</div>
-    <div id="eight">Sunny</div>
-    <div id="nine">19C</div>
-    <div id="ten">Hot</div>
-    <div id="eleven">Breeze</div>
-    <div id="help">Click For Your Region</div>
+<!-- title -->
+    <div id="title">Weather of Capital Cities</div>
+<!-- text cells of the Left table -->
+    <div id="one">City</div>
+    <div id="two">Weather</div>  
+    <div id="three">Temp</div>   
+    <div id="four">Humidity</div>  
+    <div id="five">Wind Speed</div>
+<!-- json called divs Right table-->
+    <div id="six"></div>
+    <div id="seven"></div>
+    <div id="eight"></div>
+    <div id="nine"></div>
+    <div id="ten"></div>
+<!-- Title Bar text -->
+    <div id="helpinfo">Click For Your Region</div> <!---->
 <!-- for button menu -->
 <div id="Flagbar">
     <input type="image" onclick="WeatherUK()" src="Assets/FlagUK.png" alt="UK" width="50" height="50">
@@ -39,12 +41,10 @@
     <input type="image" onclick="WeatherBel()" src="Assets/FlagBel.png" alt="Belguim" width="50" height="50">
     <input type="image" onclick="WeatherNL()" src="Assets/FlagNL.png" alt="Netherland" width="50" height="50">
     <input type="image" onclick="WeatherNor()" src="Assets/FlagNor.png" alt="Norway" width="50" height="50">
-
 </div>
 <!-- to close the table-->
-<div id="twelve"></div>
 </body>
 
 <!-- Calling in JS. here not get confussed with JQuery-->
-<script src ="style.js"></script>
+    <script src ="javaCode.js"></script>
 </html>
