@@ -1,5 +1,5 @@
 const url = "http://api.openweathermap.org/data/2.5/forecast?";
-const apiKey = '6de276f139b7271cbe7debcc1435d0aa';
+const apiKey = '';
 // Concatanation(conbinding the constants) to get an endpoint
 // endpoint is used to stop the code
 const endPoint = url + location + '&appid=' + apiKey;
